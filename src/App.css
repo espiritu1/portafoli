@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+	box-sizing: border-box;
+}
+#root {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+@theme {
+  --color-kanagawa-bg-dark: #16161D;
+  --color-kanagawa-bg: #1F1F28;
+  --color-kanagawa-bg-light: #2A2A37;
+  --color-kanagawa-bg-lighter: #363646;
+ 
+  --color-kanagawa-text-primary: #DCD7BA;
+  --color-kanagawa-text-secondary: #C8C093;
+  --color-kanagawa-text-muted: #727169;
+
+  --color-kanagawa-primary: #7E9CD8;
+  --color-kanagawa-secondary: #957FB8;
+  --color-kanagawa-accent: #98BB6C;
+  --color-kanagawa-highlight: #E6C384;
+
+  --color-kanagawa-success: #76946A;
+  --color-kanagawa-warning: #FF9E3B;
+  --color-kanagawa-error: #E82424;
+  --color-kanagawa-info: #6A9589;
+
+  --color-kanagawa-pink: #D27E99;
+  --color-kanagawa-orange: #FFA066;
+}
+
