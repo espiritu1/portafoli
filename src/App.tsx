@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg' */
 import './App.css'
 import { About } from './Componets/About/About'
 import { Navbar } from './Componets/Navbat'
+import { Tecnologias } from './Componets/Tecologias/iconos/Tecnologias'
 
 
 
@@ -11,9 +12,18 @@ function App() {
 	return (
 		<>
 			<Navbar/>
-			<About/>
-				
+
+			<main>
+
+				<About/>
+				<Tecnologias/>
+			</main>
+
+
+
 		</>
+				
+		
 			
 		
 	)

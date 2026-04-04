@@ -28,10 +28,7 @@ export  const Navbar  = () => {
 					</div>
 
 					<ul className="hidden items-center justify-end gap-3 whitespace-nowrap sm:flex">
-						<li  className="px-2 py-1 ">
-							<a href="#home" 		className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors">Home</a>
-						</li>
-
+					
 						<li className="px-2 py-1 ">
 							<a href="#about" 		className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors" >About</a>
 						</li>

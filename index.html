@@ -1,28 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="../cv/src/assets/img/solaire.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cv</title>
-     <script>
-      
-    (function () {
-      const saved = localStorage.getItem("color-scheme");
+    
+    <title>Mi Portafolio | CV</title>
 
-      const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    <meta name="description" content="CV y Portafolio profesional de desarrollo web. Conoce mis proyectos y tecnologías." />
 
-      const theme = saved ? saved : (systemDark ? "dark" : "light");
+    <meta property="og:title" content="Mi Portafolio | CV" />
+    <meta property="og:description" content="Conoce mis proyectos y habilidades como desarrollador." />
+    <meta property="og:type" content="website" />
 
-      if (theme === "dark") {
-        document.documentElement.classList.add("dark");
-      }
-    })();
-  </script>
+    <script>
+      (function () {
+        const saved = localStorage.getItem("color-scheme");
+        const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = saved ? saved : (systemDark ? "dark" : "light");
 
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">Cargando portafolio...</div>
+    
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

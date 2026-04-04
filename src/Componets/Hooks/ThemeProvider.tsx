@@ -13,7 +13,7 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 	
 	return (
 		<ThemeContext.Provider value={{ theme: themeHook.theme, setTheme: themeHook.setTheme }}>
-			<div className="min-h-screen
+			<div className="min-h-screen 
 				text-kanagawa-bg-lighter bg-kanagawa-text-primary
 			 
 			 dark:bg-kanagawa-bg-light dark:text-kanagawa-text-primary">

@@ -17,6 +17,8 @@ export const ButtonDarkMode: React.FC = () => {
 		{/*  <img src={theme === "dark" ? estuslleno : estusvacio} alt="" onClick={handleToggle} />  */} 
 
 			<label className="relative inline-flex items-center cursor-pointer">
+				
+				<span className="sr-only">Cambiar modo oscuro</span>
 				<input type="checkbox" checked={theme === "dark"} onChange={handleToggle} className="sr-only peer" />
 
 					{/* Contenedor del switch */}
