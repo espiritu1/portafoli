@@ -22,14 +22,14 @@ export const ButtonDarkMode: React.FC = () => {
 				<input type="checkbox" checked={theme === "dark"} onChange={handleToggle} className="sr-only peer" />
 
 					{/* Contenedor del switch */}
-				<div className={`relative hover:bg-kanagawa-warning w-14 h-7 border border-black/25 rounded-full transition-colors  duration-500 ease-in-out ${theme === "dark" ? " bg-kanagawa-text-primary" : "bg-kanagawa-bg-lighter"}`}>
+				<div className={`relative hover:bg-kanagawa-warning w-14 h-6 border border-black/25 rounded-full transition-colors  duration-500 ease-in-out ${theme === "dark" ? " bg-kanagawa-text-primary" : "bg-kanagawa-bg-lighter"}`}>
 					{/* Bolita */}
 				<div
-					className={`absolute left-1 top-1/2 -translate-y-1/2 w-5 h-5 
+					className={`absolute left-1 top-1/2 -translate-y-1/2 w-4 h-4 
 						${theme === "dark" ? "bg-kanagawa-bg-light" : "bg-kanagawa-text-primary"} 
 						rounded-full shadow-md
 						transition-transform duration-500 ease-in-out
-						${theme === "dark" ? "translate-x-6.5 scale-110" : "translate-x-0 scale-100"}`}
+						${theme === "dark" ? "translate-x-7.5 scale-110" : "translate-x-0 scale-100"}`}
 />
 				</div> 
 			</label>

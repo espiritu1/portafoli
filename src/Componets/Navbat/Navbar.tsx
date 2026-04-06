@@ -5,10 +5,9 @@ export  const Navbar  = () => {
 
 	return(
 		<>
-
 			<header className="pt-4 pb-4 w-[85%] mx-auto ">
 
-				<nav className="border border-t-0 border-b-0 border-kanagawa-bg-lighter dark:border-kanagawa-text-primary p-5 flex justify-between rounded-full mx-auto backdrop-blur-sm transition-colors ">
+				<nav className="border border-t-0 border-b-0 border-kanagawa-bg-lighter dark:border-kanagawa-text-primary p-3 flex justify-between rounded-full mx-auto backdrop-blur-sm transition-colors ">
 
 					<div className="flex sm:hidden">
 						<label>
@@ -34,7 +33,7 @@ export  const Navbar  = () => {
 						</li>
 
 						<li className="px-2 py-1 ">
-							<a href="#proyectos" 	className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors">Mis páginas</a>
+							<a href="#experiencia" 	className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors">Experiencia</a>
 						</li>
 
 						<li className=" px-2 py-1 ">
@@ -42,7 +41,7 @@ export  const Navbar  = () => {
 						</li>
 
 						<li className="px-2 py-1 ">
-							<a href="#contact" 		className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors">Contact</a>
+							<a href="#contacto" 	className="border-b-3 border-transparent hover:border-kanagawa-accent transition-colors">Contacto</a>
 						</li>
 					</ul>
 

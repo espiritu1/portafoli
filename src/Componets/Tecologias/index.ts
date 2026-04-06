@@ -6,5 +6,5 @@ export * from './iconos/Javascript';
 export * from './iconos/Npm';
 export * from './iconos/React';
 export * from './iconos/Tailwind';
-export * from './iconos/Tecnologias';
+export * from './Tecnologias';
 export * from './iconos/Typescript';
