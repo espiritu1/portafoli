@@ -3,7 +3,7 @@ import { ButtonDarkMode } from "../Buttons/ButtonDarkMode"
 import solaire from "../../assets/img/solaire.png"
 import ButtonBurger from "./ButtonBurger"
 import { NavLinks } from "./NavbarLink"
-import { Disponible } from "../Disponible/Disponible"
+
 
 export const Navbar = () => {
 
@@ -52,6 +52,8 @@ export const Navbar = () => {
 					<NavLinks />
 
 					<ButtonDarkMode/>
+					
+					
 				</nav>
 
 			</header>
@@ -95,6 +97,7 @@ export const Navbar = () => {
 	
 
 			</div>
+			
 		
 
 		</>

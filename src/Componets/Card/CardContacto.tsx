@@ -11,6 +11,7 @@ export const CardContacto = () => {
 
 	const email = "fere.espiritu@gmail.com";
 	const telefono = "2288484335";
+	const LinkedIn ="https://www.linkedin.com/in/fernando-espiritu-372539248/"
 	
 	return (
 		<section id="contacto" className="my-20 mx-4">
@@ -32,7 +33,7 @@ export const CardContacto = () => {
 					<ContactoItem
 						icon={<AiOutlineLinkedin className="text-xl" />}
 						text="LinkedIn"
-						href="https://www.linkedin.com/in/fernando-espiritu/"
+						href={LinkedIn}
 						tooltip="Abrir en navegador"
 					/>
 
@@ -40,7 +41,7 @@ export const CardContacto = () => {
 
 						<ContactoItem
 							icon={<AiOutlineWhatsApp className="text-xl" />}
-							text="22 88 48 43 35"
+							text={telefono}
 							tooltip="copiar teléfono"/>
 						<a
 							href={`https://wa.me/52${telefono}`}

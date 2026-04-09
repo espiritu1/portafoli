@@ -1,4 +1,4 @@
-import { Disponible } from "../Disponible/Disponible"
+
 
 interface Props {
 	direction?: "row" | "col"
@@ -14,9 +14,7 @@ export const NavLinks = ({ direction = "row", onClick }: Props) => {
 return (
 	<>
 	<ul className={`
-		${direction === "row" 
-			? "hidden sm:flex items-center justify-end gap-3 whitespace-nowrap" 
-			: "flex flex-col divide-y divide-kanagawa-bg-lighter dark:divide-kanagawa-text-primary"}
+		${direction === "row"  ? "hidden sm:flex items-center justify-end gap-3 whitespace-nowrap" : "flex flex-col divide-y divide-kanagawa-bg-lighter dark:divide-kanagawa-text-primary"}
 	`}>
 
 		<li className={`${baseStyles} py-4`}>
