@@ -6,12 +6,10 @@ import { About } from './Componets/About/About'
 import { ButtonCv } from './Componets/Buttons/ButtonCv'
 import { CardContacto } from './Componets/Card/CardContacto'
 import Estudios from './Componets/Estudios/Estudios'
-
 import { Experiencia } from './Componets/Experiencia/Experiencia'
 import { Footer } from './Componets/Footer/Footer'
 import { Navbar } from './Componets/Navbat'
 import { Proyectos } from './Componets/Proyectos/Proyectos'
-
 import { Tecnologias } from './Componets/Tecologias/Tecnologias'
 
 

@@ -31,7 +31,7 @@ export const ContactoItem = ({ icon, text, href, tooltip, className=""}: Contact
     <div className="relative w-fit group">
 		<Component
 			{...(href ? { href, target: "_blank", rel: "noopener noreferrer"}: { onClick: copiar})}
-        	  className={`flex items-center gap-3  rounded-2xl  transition-colors text-left ${className}`}>
+        	  className={`flex items-center gap-3  hover:bg-kanagawa-highlight hover:text-kanagawa-bg-dark p-2 rounded-2xl  transition-colors text-left ${className}`}>
 				{icon}
 				<span >{text}</span>
 				

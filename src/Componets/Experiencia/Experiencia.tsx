@@ -14,8 +14,8 @@ export const Experiencia = () => {
 
 			<ExperienciaItem
 				puesto="Full Stack "
-				empresa="Dinamo"
-				fecha="2022 - 2023"
+				empresa="Dinamo  •"
+				fecha=" 2022 - 2023"
 				tecnologias="HTML, CSS, JavaScript, Jquery, PHP, Oracle Database, Bootstrap, Subversion"
 				descripcion={
 					<>

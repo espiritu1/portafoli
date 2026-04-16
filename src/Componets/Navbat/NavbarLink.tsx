@@ -9,7 +9,7 @@ export const NavLinks = ({ direction = "row", onClick }: Props) => {
 
 	const baseStyles = "px-2 py-1"
 
-	const linkStyles = "border-b-3 hover:drop-shadow-[0_0_5px_#ffffff] border-transparent transition-all duration-300 ease-in-out   "
+	const linkStyles = "border-b-3 dark:hover:drop-shadow-[0_0_5px_#ffffff]  hover:drop-shadow-[0_0_2px_#16161D] border-transparent transition-all duration-300 ease-in-out   "
 
 return (
 	<>

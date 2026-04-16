@@ -12,9 +12,13 @@ export default function Estudios() {
 
 	  
 		<ExperienciaItem
+			descripcion={
+			<> 
+			<p> Licenciatura en Tecnologías Computacionales  </p>
+			<p>2018 - 2022</p>
+			</>}
 			puesto=" Universidad Veracruzana"
-			empresa="Licenciatura en Tecnologías Computacionales"
-			fecha="2018 - 2022"
+
 			/>
 		</div>
 	  

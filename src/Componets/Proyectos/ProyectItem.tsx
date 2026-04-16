@@ -69,7 +69,7 @@ export const ProyectItem = ({ nombre, imagen, descripcion, tecnologias, github, 
             target= "_blank" 
             rel= "noopener noreferrer"
 
-            className="text-gray-300 hover:text-kanagawa-success transition text-sm"
+            className="text-gray-300 hover:text-kanagawa-success   hover:drop-shadow-[0_0_5px_#76946A]  transition text-sm"
           >
             Ver GitHub
           </a>

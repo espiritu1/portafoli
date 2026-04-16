@@ -1,23 +1,23 @@
 interface ExperienciaItemProps {
-  puesto: string;
-  empresa: string;
-  fecha: string;
+  puesto?: string;
+  empresa?: string;
+  fecha?: string;
   tecnologias?: string;
    descripcion?: React.ReactNode;
 }
 
 export const ExperienciaItem = ({ puesto, empresa, fecha, tecnologias, descripcion }: ExperienciaItemProps) => {
   return (
-	<article className="border-l-2 border-kanagawa-bg-lighter dark:border-kanagawa-secondary pl-4 relative">
+	<article className="border-l-2 border-kanagawa-bg-lighter  dark:border-kanagawa-secondary pl-4 relative">
 		
-		<div className="absolute w-3 h-3 bg-kanagawa-bg-lighter rounded-full dark:bg-kanagawa-secondary -left-1.75 top-1" />
+		<div className="absolute w-3 h-3 bg-kanagawa-bg-lighter  hover:drop-shadow-[0_0_5px_#957FB8] rounded-full dark:bg-kanagawa-secondary -left-1.75 top-1" />
 			<header>
 				<h3 className="text-2xl font-semibold text-kanagawa-primary">
 					{puesto}
 				</h3>
 
 				<p className="text-md text-kanagawa-text-muted">
-					<span>{empresa} • {fecha} </span>
+					<span>{empresa}  {fecha} </span>
 				</p>
 			</header>
 
