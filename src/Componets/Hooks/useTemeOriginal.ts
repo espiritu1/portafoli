@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"; 
+/* import { useEffect, useState } from "react"; 
  // The solo ocupara dos valores claro o oscuro 
  export type Theme = "light" | "dark"; 
  export function useThemeOriginal() { const [theme, setTheme] = useState<Theme>("light"); 
@@ -22,4 +22,4 @@ import { useEffect, useState } from "react";
 			} mediaQuery.addEventListener("change", handleSystemChange); 
 			return () => { mediaQuery.removeEventListener("change", handleSystemChange); 
 
-			}; }, []); return { theme, setTheme: applyTheme }; }
+			}; }, []); return { theme, setTheme: applyTheme }; } */

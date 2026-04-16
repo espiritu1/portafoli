@@ -8,7 +8,7 @@ export const Disponible = () => {
 		<div className="flex flex-col md:flex-row justify-center items-center mt-5">
 
 		  <div className="	border dark:text-kanagawa-bg-lighter border-kanagawa-bg-dark  
-		  					justify-center rounded-2xl m-4 px-4 bg-kanagawa-accent 
+		  					justify-center rounded-2xl m-4 px-4 py-1  bg-kanagawa-accent 
 							inline-flex items-center gap-2">
 			<BsPersonWorkspace className="text-xl" />
 			<span>Disponible para trabajar</span>
@@ -19,7 +19,7 @@ export const Disponible = () => {
 			icon={<AiOutlineMail className="text-xl" />}
 			text="fere.espiritu@gmail.com"
 			tooltip="Copiar correo"
-			  className="hover:bg-kanagawa-highlight  text-kanagawa-dark border  dark:text-kanagawa-text-primary  m-4 px-4  bg-kanagawa-info"
+			  className="text-kanagawa-dark border   hover:text-kanagawa-bg  bg-kanagawa-success hover:bg-kanagawa-highlight  py-1 px-2 transition-colors duration-300  "
 			
 			/>
 

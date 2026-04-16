@@ -9,7 +9,6 @@ export const Navbar = () => {
 
 	const [isOpen, setIsOpen] = useState(false)
 	const sidebarRef = useRef<HTMLDivElement>(null)
-
 	// cerrar al hacer click fuera
 	useEffect(() => {
 		const handleClickOutside = (event: MouseEvent) => {
@@ -20,7 +19,6 @@ export const Navbar = () => {
 				setIsOpen(false)
 			}
 		}
-
 		if (isOpen) {
 			document.addEventListener("mousedown", handleClickOutside)
 		}
@@ -36,11 +34,14 @@ export const Navbar = () => {
 		<>
 			<header className="pt-4 pb-4 w-[85%] mx-auto ">
 
-				<nav className="border border-t-0 border-b-0 border-kanagawa-bg-lighter dark:border-kanagawa-text-primary p-3 flex justify-between rounded-full mx-auto backdrop-blur-sm transition-colors ">
+				<nav className=" p-1 flex justify-between rounded-full 
+								mx-auto backdrop-blur-sm transition-colors border border-t-0 border-b-0 
+								border-kanagawa-bg-lighter dark:border-kanagawa-text-primary ">
 
 					<ButtonBurger 
 						isOpen={isOpen}
-						setIsOpen={setIsOpen}
+						setIsOpen={setIsOpen} 
+						
 					/>
 
 					<div className="flex items-center">

@@ -22,9 +22,11 @@ export const Tooltip = ({ children,  position = "top" }: TooltipProps) => {
         whitespace-nowrap
         transition-opacity
         hidden group-hover:block
-        bg-kanagawa-info
+       text-kanagawa-bg-dark
+bg-kanagawa-text-primary
         border border-bs-kanagawa-text-secondary
-        text-kanagawa-text-primary
+       
+        dark:text-kanagawa-bg-dark
        
       `}
     >

@@ -14,28 +14,33 @@ export const NavLinks = ({ direction = "row", onClick }: Props) => {
 return (
 	<>
 	<ul className={`
-		${direction === "row"  ? "hidden sm:flex items-center justify-end gap-3 whitespace-nowrap" : "flex flex-col divide-y divide-kanagawa-bg-lighter dark:divide-kanagawa-text-primary"}
+		${direction === "row"  ? "hidden sm:flex items-center justify-end  whitespace-nowrap" : "flex flex-col divide-y divide-kanagawa-bg-lighter dark:divide-kanagawa-text-primary"}
 	`}>
 
-		<li className={`${baseStyles} py-4`}>
+		<li className={`${baseStyles} py-2`}>
 			<a href="#sobreMi" className={linkStyles} onClick={onClick}>
 				Sobre mí
 			</a>
 		</li>
 
-		<li className={`${baseStyles} py-4`}>
+		<li className={`${baseStyles} py-2`}>
 			<a href="#experiencia" className={linkStyles} onClick={onClick}>
 				Experiencia
 			</a>
 		</li>
+		<li className={`${baseStyles} py-2`}>
+			<a href="#proyectos" className={linkStyles} onClick={onClick}>
+				Proyectos
+			</a>
+		</li>
 
-		<li className={`${baseStyles} py-4`}>
+		<li className={`${baseStyles} py-2`}>
 			<a href="#tecnologias" className={linkStyles} onClick={onClick}>
 				Tecnologías
 			</a>
 		</li>
 
-		<li className={`${baseStyles} py-4`}>
+		<li className={`${baseStyles} py-2`}>
 			<a href="#contacto" className={linkStyles} onClick={onClick}>
 				Contacto
 			</a>

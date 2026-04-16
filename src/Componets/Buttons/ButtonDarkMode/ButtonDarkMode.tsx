@@ -1,8 +1,8 @@
 import React from "react";
 import { useTheme } from "../../Hooks/useTheme";
-/* import estusvacio from "../../../assets/img/estusvacio.png"
+import estusvacio from "../../../assets/img/estusvacio.png"
 import estuslleno from "../../../assets/img/estuslleno.png"
-import solaire from "../../../assets/img/solaire.png" */
+
 
 export const ButtonDarkMode: React.FC = () => {
 	const { theme, setTheme } = useTheme();
@@ -14,22 +14,25 @@ export const ButtonDarkMode: React.FC = () => {
 	return(
 		<>
 		{/*  idea para cambio de tema */}  
-		{/*  <img src={theme === "dark" ? estuslleno : estusvacio} alt="" onClick={handleToggle} />  */} 
+		{/* <figure className="flex justify-center items-center">
+			<img src={theme === "dark" ? estuslleno : estusvacio} className="w-8" alt="" onClick={handleToggle} />  
+		</figure> */}
 
-			<label className="relative inline-flex items-center cursor-pointer">
+			<label className="relative inline-flex text:sm items-center cursor-pointer">
 				
 				<span className="sr-only">Cambiar modo oscuro</span>
 				<input type="checkbox" checked={theme === "dark"} onChange={handleToggle} className="sr-only peer" />
 
-					{/* Contenedor del switch */}
-				<div className={`relative hover:bg-kanagawa-warning w-14 h-6 border border-black/25 rounded-full transition-colors  duration-500 ease-in-out ${theme === "dark" ? " bg-kanagawa-text-primary" : "bg-kanagawa-bg-lighter"}`}>
-					{/* Bolita */}
+				
+				<div className={`relative hover:bg-kanagawa-warning w-10 h-4 border border-black/25 rounded-full 
+					transition-colors  duration-500 ease-in-out ${theme === "dark" ? " bg-kanagawa-text-primary" : "bg-kanagawa-bg-lighter"}`}>
+					
 				<div
-					className={`absolute left-1 top-1/2 -translate-y-1/2 w-4 h-4 
+					className={`border absolute  top-1/2 -translate-y-1/2 w-4.5 h-4.5 
 						${theme === "dark" ? "bg-kanagawa-bg-light" : "bg-kanagawa-text-primary"} 
 						rounded-full shadow-md
 						transition-transform duration-500 ease-in-out
-						${theme === "dark" ? "translate-x-7.5 scale-110" : "translate-x-0 scale-100"}`}
+						${theme === "dark" ? " translate-x-5 scale-110" : " translate-x-left-2 scale-110"}`}
 />
 				</div> 
 			</label>

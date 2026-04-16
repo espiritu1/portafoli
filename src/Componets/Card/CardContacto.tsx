@@ -14,7 +14,7 @@ export const CardContacto = () => {
 	const LinkedIn ="https://www.linkedin.com/in/fernando-espiritu-372539248/"
 	
 	return (
-		<section id="contacto" className="my-20 mx-4">
+		<section id="contacto" className="my-15 mx-4">
 		
 			<div className="max-w-md mx-auto border border-kanagawa-border rounded-2xl p-6 bg-kanagawa-bg text-kanagawa-text-primary">
 			
@@ -47,7 +47,7 @@ export const CardContacto = () => {
 							href={`https://wa.me/52${telefono}`}
 							target="_blank"
 							rel="noopener noreferrer"
-							className=" text-md border border-kanagawa-border  p-1 rounded-md  bg-kanagawa-info hover:bg-kanagawa-highlight hover:text-kanagawa-bg transition-colors duration-300 inline-block
+							className=" text-md border border-kanagawa-border  py-1 px-2 rounded-md  bg-kanagawa-success hover:bg-kanagawa-highlight hover:text-kanagawa-bg transition-colors duration-300 inline-block
 							"> Abrir en navegador
 						</a>
 

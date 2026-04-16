@@ -9,8 +9,8 @@ export const ButtonCv = () => {
       
       {/* Botón de descarga de CV */}
       <a 
-        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-2xl px-4
-                   bg-kanagawa-info inline-flex items-center gap-2 h-10 
+        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-md px-4
+                   bg-kanagawa-success inline-flex items-center gap-2 h-10 
                    hover:bg-kanagawa-highlight hover:text-kanagawa-bg transition-colors duration-300"
         href={CV}
         download="Fernando_Espiritu_CV.docx"
@@ -21,8 +21,8 @@ export const ButtonCv = () => {
 
       {/* Botón de GitHub */}
       <a 
-        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-2xl px-4
-                   bg-kanagawa-info inline-flex items-center gap-2 h-10 
+        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-md px-4
+                   bg-kanagawa-success inline-flex items-center gap-2 h-10 
                    hover:bg-kanagawa-highlight hover:text-kanagawa-bg transition-colors duration-300"
         href="https://github.com/espiritu1"
         target="_blank"
@@ -34,8 +34,8 @@ export const ButtonCv = () => {
 
       {/* Botón de LinkedIn */}
       <a 
-        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-2xl px-4
-                   bg-kanagawa-info inline-flex items-center gap-2 h-10 
+        className="mx-auto md:mx-0 border text-shadow-kanagawa-text-primary rounded-md px-4
+                   bg-kanagawa-success inline-flex items-center gap-2 h-10 
                    hover:bg-kanagawa-highlight hover:text-kanagawa-bg transition-colors duration-300"
         href="https://www.linkedin.com/in/fernando-espiritu-372539248/"
         target="_blank"

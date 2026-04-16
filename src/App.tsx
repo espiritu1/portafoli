@@ -8,8 +8,12 @@ import { CardContacto } from './Componets/Card/CardContacto'
 import Estudios from './Componets/Estudios/Estudios'
 
 import { Experiencia } from './Componets/Experiencia/Experiencia'
+import { Footer } from './Componets/Footer/Footer'
 import { Navbar } from './Componets/Navbat'
+import { Proyectos } from './Componets/Proyectos/Proyectos'
+
 import { Tecnologias } from './Componets/Tecologias/Tecnologias'
+
 
 
 
@@ -22,10 +26,15 @@ function App() {
 				<About/>
 				<ButtonCv/>
 				<Experiencia/>
+				<Proyectos/>
 				<Estudios/>
 				<Tecnologias/>
 				<CardContacto/>
 			</main>
+
+			
+
+			<Footer/>
 
 		</>
 				
